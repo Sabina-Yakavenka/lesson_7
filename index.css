@@ -1,0 +1,814 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+}
+
+/*Шапка сайта*/
+
+.header-main {
+    background-color: black;
+    height: 70px;
+    padding: 20px 0 20px; 
+}
+
+.header-main-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1054px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 48px;  
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 600px;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+/* первый экран с формой*/
+
+.modern-axure {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(./assets/images/background/background-1\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+.modern-axure-two-blocks {
+    max-width: 1054px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* первый экран с формой, левый блок*/
+
+.modern-axure-left-block {
+    padding: 110px 0 110px;
+}
+
+.modern-axure-left-block-content {
+    width: 100%;   
+    margin-right: 265px;
+} 
+
+.modern-axure-content-logo {
+    margin-bottom: 32px;
+}
+
+.modern-axure-content-left-block-title {
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400px;
+    margin-bottom: 32px;
+    line-height: 42px;   
+}
+
+.modern-axure-content-left-block-line {
+    border: 1px solid #fff;
+    width: 64px;
+    margin-bottom: 39px;
+    opacity: 0.5;
+}
+
+.modern-axure-content-left-block-subtitle {
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 300px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 39px;
+    opacity: 0.5;
+    line-height: 19px;
+}
+
+
+.modern-axure-content-left-block-button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    padding: 11px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600px;
+    font-size: 15px;
+}
+
+/* первый экран с формой, правый блок */
+
+.modern-axure-right-block {
+    background-color: #fff;
+    max-width: 370px;
+    height: 370px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 110px;
+    margin-bottom: 120px;
+}
+
+.modern-axure-right-content-caption-text{
+    text-align: center;
+    height: 56px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.modern-axure-right-content-caption-text-color {
+    font-family: 'Open Sans', sans-serif;
+    color: #EC7979;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.modern-axure-right-content-form{
+    margin-top: 44px;
+    padding: 0 59px;
+}
+
+input {
+    border: 0;
+    margin-bottom: 19px;
+    color: #BDBDBD;
+    font-size: 14px;
+}
+
+hr {
+    margin-bottom: 19px;
+    max-width: 252px;
+    width: 100%;
+    color: rgba(189, 189, 189, 1);
+}
+
+.modern-axure-right-button {
+    background: #EC7979;
+    border-radius: 0px 0px 8px 8px;
+    max-width: 370px;
+    width: 100%;
+    margin-top: 61px;
+    border: 0;
+    height: 53px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* блок с медиа и иконками */
+
+.social-media {
+    background-color: #F8EFEF;
+}
+
+.social-media-block {
+    max-width: 1054px;
+    margin: 0 auto;    
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
+}
+
+.social-media-block-text {
+    margin-top: 14px;
+    margin-right: 129px; 
+}
+
+.social-media-block-text-title {
+    margin-bottom: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+.social-media-block-text-subtitle {
+    margin-bottom: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.social-media-block-icons {
+    margin-top: 34px;
+    letter-spacing: 20px;
+}
+
+.social-media-block-icons a   {
+    color: #86878B;
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+/* блок с тремя табами */
+
+.tabs-content {
+    max-width: 1054px;
+    margin: 0 auto 205px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs-content-square {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 125px;
+    margin-right: 118px;
+}
+
+.square {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    width: 112px;
+    height: 110px;
+    left: 111px;
+    background: #333333;
+    border-radius: 4px;
+    text-align: center;
+    padding: 45px 25px;
+    text-transform:uppercase;
+}
+
+.square:first-child {
+    background: #EC7979
+}
+
+.tabs-content-text-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #000;
+    margin-bottom: 58px;
+    margin-top: 126px;
+}
+
+.tabs-content-text-description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: justify;
+    color: #86878B;
+    margin-bottom: 69px;
+    margin-right: 50px;
+    
+}
+
+.tabs-content-button {
+    border: 1px solid #EC7979;
+    cursor: pointer;
+    background-color:  #EC7979;
+    color: #fff;
+    font-size: 15px;
+    padding: 11px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600px;
+    font-size: 15px;
+}
+
+.tabs-content-image-town {
+    margin-top: 100px;
+}
+
+/* блок с тремя кружками */
+
+.awesome-content {
+    max-width: 1054px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.awesome-content-title {
+    text-align: center;
+    margin-bottom: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;  
+}
+
+.awesome-content-line {
+    border: 1px solid #E72424;
+    width: 64px;
+    margin: 0 auto 34px;
+}
+
+.awesome-content-text {
+    text-align: center;
+    margin-bottom: 68px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878B;
+}
+
+/* три блока */
+
+.why-awesome-content {
+    max-width: 1054px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 108px;
+}
+
+.why-awesome-block {
+    text-align: center;
+    padding: 0 3px; 
+}
+
+.why-awesome-block-circle {
+    border: 1px #E72424 solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    line-height: 85px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lamp {
+    background-image:url("./assets/images/icons/lamp.svg");
+}
+
+.keyboard {
+    background-image:url("./assets/images/icons/keyboard.svg");
+}
+
+.light {
+    background-image:url("./assets/images/icons/light.svg");
+}
+
+.why-awesome-block-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #333333;
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 700px;
+    font-weight: bold;
+}
+
+.why-awesome-block-text {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+}
+
+/* блок с прайсами */
+
+/* заголовок */
+
+.pricing {
+    background-color: #F5F5F5;
+}
+
+.pricing-options {
+    max-width: 1054px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.pricing-options-title {
+    text-align: center;
+    margin-bottom: 34px;
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;  
+}
+
+.pricing-options-line {
+    border: 1px solid #E72424;
+    width: 64px;
+    margin: 0 auto 34px;
+}
+
+.pricing-options-text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878B;
+} 
+
+/* три блока */
+
+.pricing-block-content {
+    max-width: 1054px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+
+}
+
+/* левый блок */
+
+.pricing-block-left {
+   margin-top: 62px; 
+   text-align: center;
+}
+
+.pricing-block-left-title {
+    background-color: #333333;
+    padding: 15px 144px 8px;
+    margin-bottom: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;  
+}
+
+.pricing-block-left-much {
+    background-color: #333333;
+    padding: 26px 152px 33px 144px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pricing-block-left-text {
+    margin-top: 1px;
+    background-color: #333333;
+    padding: 17px 135px 14px 127px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing-block-left-points div {
+    padding: 10px 131px 11px 123px;
+    margin-bottom: 2px;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878B;
+}
+
+/* блок в центре */
+
+.pricing-block-center {
+    margin-top: 47px;
+    text-align: center;
+}
+
+.pricing-block-center-title {
+    background-color: #333333;
+    padding: 15px 144px 8px;
+    margin-bottom: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;  
+}
+
+.pricing-block-center-much {
+    background-color: #333333;
+    padding: 26px 152px 33px 144px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.pricing-block-center-text {
+    margin-top: 1px;
+    background-color: #333333;
+    padding: 17px 135px 14px 127px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing-block-center-points div {
+    padding: 10px 131px 11px 123px;
+    margin-bottom: 2px;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878B;
+}
+
+/* блок справа */
+
+.pricing-block-right{
+    margin-top: 64px; 
+    margin-bottom: 74px;
+    text-align: center;
+}
+
+.pricing-block-right-title {
+    background-color: #333333;
+    padding: 15px 144px 8px;
+    margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;  
+}
+
+.pricing-block-right-much {
+    background-color: #333333;
+    padding: 26px 152px 33px 144px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.pricing-block-right-text {
+    margin-top: 1px;
+    background-color: #333333;
+    padding: 17px 135px 14px 127px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing-block-right-points div {
+    padding: 10px 131px 11px 123px;
+    margin-bottom: 2px;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878B;
+}
+
+/* блок с отзывами */
+
+.what-our-content {
+    max-width: 1054px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-our-content-title {
+    text-align: center;
+    margin-bottom: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121; 
+    margin-top: 80px;
+}
+
+.what-our-content-line {
+    border: 1px solid #E72424;
+    width: 64px;
+    margin: 0 auto 34px;
+}
+
+.what-our-content-text {
+    font-size: 14px;
+    color: #000000;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400px;
+    margin-bottom: 67px;
+}
+
+/* три блока с отзывами */
+
+.what-our-blocks-content {
+    max-width: 1054px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 22px;
+    text-align: center;
+}
+
+.what-our-blocks-content-left {
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    padding: 14px 14px 16px 14px;
+    margin-right: 112px;
+}
+
+.what-our-blocks-content-center {
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    padding: 14px 14px 16px 14px;
+    margin-right: 112px;
+}
+
+.what-our-blocks-content-right {
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    padding: 14px 14px 16px 14px;  
+}
+
+/* фото под отзывами */
+
+.what-our-blocks-photo-content {
+    max-width: 1054px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* блок слева */
+
+.what-our-blocks-photo-left {
+    text-align: center;
+    padding: 0 3px; 
+}
+
+.what-our-blocks-photo-left-circle {
+    border: 1px #fff solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* блок по центру */
+
+.what-our-blocks-photo-center {
+    text-align: center;
+    padding: 0 3px; 
+    
+}
+
+.what-our-blocks-photo-center-circle {
+    border: 1px #fff solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* блок справа */
+
+.what-our-blocks-photo-right {
+    text-align: center;
+    padding: 0 3px; 
+}
+
+.what-our-blocks-photo-right-circle {
+    border: 1px #fff solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo {
+    background-image:url("./assets/images/avatar/avatar_2_u231@1X\ 1.png");
+}
+
+/* блок с кнопкой скачать, нижний */
+
+.stylish-axure-design {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(./assets/images/background/background\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.stylish-axure-design-content {
+    max-width: 1054px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stylish-axure-design-content-title {
+    text-align: center;
+    margin-bottom: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff; 
+    margin-top: 58px;
+}
+
+.stylish-axure-design-content-line {
+    border: 1px solid #fff;
+    width: 64px;
+    margin: 0 auto 34px;
+    opacity: 0.8;
+}
+
+.stylish-axure-design-content-text {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300px;
+    margin-bottom: 57px;
+    opacity: 0.8;
+}
+
+.stylish-axure-design-content-button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    padding: 11px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600px;
+    font-size: 15px;
+    margin-bottom: 38px;
+}
+
+/* футтер */
+
+.footer-main {
+    background-color: black;
+    height: 101px;
+    padding: 30px 0 30px; 
+}
+
+.footer-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1054px;
+    margin: 0 auto;
+    width: 100%;    
+}
+
+.footer-main-container-icons a { 
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 45px;
+}
+
+.footer-main-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
